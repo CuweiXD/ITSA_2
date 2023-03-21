@@ -17,3 +17,22 @@
 #### 輸出範例:
 144.0
 152.0
+
+```
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+    double x = 0;
+    double ans = 0;
+
+    cin >> x;
+    ans = x * 1.6;
+
+    cout << fixed << setprecision(1) << ans << endl;
+
+    return 0;
+}
+```
